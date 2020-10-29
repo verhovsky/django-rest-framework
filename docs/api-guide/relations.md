@@ -183,7 +183,7 @@ For example, the following serializer:
             many=True,
             read_only=True,
             slug_field='title'
-         )
+        )
 
         class Meta:
             model = Album
